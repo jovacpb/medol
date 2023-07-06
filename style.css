@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   
+}
+main{
+    width: 100%;
+}
+
+ header{
+    width: 100%;
+    height: 950px;
+    background-image: url(.//assets/img/blur-hospital\ 1.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+ }
+ li{
+    list-style: none;
+ }
+ /* UP QISMI */
+
+ .up__qismi{
+    width: 80%;
+    margin-top: 50px;
+ }
+ .up__qismi .header-info{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+ .li__a{
+   width: 230px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+ }
+ .li__div__a{
+    background:whitesmoke;
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .li__img__a{
+    width: 20px;
+    height: 20px;
+
+ }
+ .pli1{
+margin-left: 15px;
+color: #5A5A5A;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+  .li__b{
+   width: 230px;
+   height: 50px;
+   margin-right: 30px;
+   display: flex;
+   align-items: center;
+ }
+ .li__div__b{
+    background: whitesmoke;
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .li__img__b{
+    width: 20px;
+    height: 20px;
+
+ }
+ .pli2{
+margin-left: 15px;
+color: #5A5A5A;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+
+.medol{
+width: 200px;
+height: 58px;
+flex-shrink: 0;
+margin-right: 35px;
+}
+.li__d{
+width: 150px;
+height: 50px;
+background: whitesmoke;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 25px;
+
+}
+.pli3{
+color: #0D4C93;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.li__i{
+    width: 110px;
+    height: 50px;
+    background: whitesmoke;
+    border-radius: 25px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.li__i__img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.pli4{
+color: #0D4C93;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* DOWN QISMI */
+
+.down__qismi{
+    width: 80%;
+    margin-top: 50px;
+    
+}
+.down__qismi .filter{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: wheat;
+    border-radius: 35px;
+    opacity: 0.6;
+}
+
+.produksiya{
+height: 100%;
+border-left: 1px solid #F2F2F2;;
+color: #0D4C93;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+padding-top:35px;
+padding-left: 20px;
+transition: 0.3s;
+}
+.produksiya:hover{
+    color: #00C9C9;
+    cursor: pointer;
+}
+
+/* TEXT va IMG QISMI */
+
+.header__text__foto{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.text__left{
+height: 450px;
+width: 600px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 10px;
+}
+.left__h1{
+width: 350px;
+height: 70px;
+color: #0D4C93;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 4.5px;}
+.left__p{
+width: 500px;
+height: 100px;
+margin-top: -90px;
+color: #363535;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
+.left__button{
+width: 230px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 35px;
+opacity: 0.8999999761581421;
+background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+transition: 0.3s;
+border: none;
+}
+.left__button:hover{
+cursor: pointer;
+color:#00C9C9;
+}
+.foto__rigth{
+    width:50% ;
+    
+}
+
+.right__foto{
+    margin-left: 50px;
+    width:500px;
+    height: 400px;
+    
+    
+}
+
+/* SECTION QISMI    */
+.section__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.clear__1{
+ width: 70%;    
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ margin-left: 200px;
+}
+.clear__1__h1{
+color: #0D4C93;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.production{
+margin-top: 40px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 60px;
+grid-row-gap: 50px;
+padding-left: 20px;
+border-radius: 35px;
+opacity: 0.8999999761581421;
+background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+}
+
+.card1{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+.card__img{
+    width:150px;
+    height: 130px;
+}
+.card__p{
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.52px;
+}
+.card__btn{
+width: 250px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 35px;
+opacity: 0.8999999761581421;
+background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+cursor: pointer;
+}
+
+.clear__2{
+ width: 100%;
+ height: 700px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ background-image: url(./assets/img/abstract-blur-hospital-clinic-interior\ 1.png) ;
+ 
+}
+.clear__2__title{
+    width:100% ;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.clear__2__h4{
+color: #0D4C93;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.clear__2__h1{
+color: #0D4C93;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.services{    
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 60px;
+grid-row-gap: 30px;
+margin-top: 100px;
+}
+.services__card{
+    width: 388px;
+    height: 491px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+   background: #FFF;
+   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.05);
+   text-align: center;
+}
+.ser-img{
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+}
+.ser-h2{
+color: #0D4C93;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.3px;
+}
+.ser-p{
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+}
+.ser-btn{
+width: 230px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 35px;
+opacity: 0.8999999761581421;
+background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+border: none;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 120px;
+cursor: pointer;
+}
+
+.clear__3{
+ width: 100%;
+ height: 700px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 50px;
+}
+.clear__3__h1{
+width: 100%;
+height: 70px;
+color: #0D4C93;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 630px;
+margin-top: 50px;
+}
+.company__info{
+width: 1023px;
+height: 504px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 100%);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+flex-shrink: 0;
+}
+.info__p{
+color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 173.187%;
+letter-spacing: 1.2px;
+}
+.info__button{
+width: 270px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 35px;
+opacity: 0.8999999761581421;
+background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.8px;
+border: none;
+cursor: pointer;
+}
+.clear__4{
+ width: 100%;
+ height: 700px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+.clear__4__h1{
+color: #0D4C93;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: -20px;
+}
+.news{
+width: 100%;
+height: 100%;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+
+}
+.news__card{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 2px solid #F6F6F6;
+    opacity: 0.8999999761581421;
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.news__img{
+width: 335px;
+height: 251px;
+border-radius: 30px;
+margin-top: -130px;
+}
+.news__h3{
+color: #0D4C93;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.news__p{
+color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.news__btn{
+width: 270px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 35px;
+opacity: 0.8999999761581421;
+background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.8px;
+border: none;
+cursor: pointer;
+margin-bottom: -20px;
+}
+.news__btn2{
+width: 270px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 35px;
+opacity: 0.8999999761581421;
+background: #00C9C9;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.8px;
+border: none;
+cursor: pointer;
+margin-bottom: -20px;
+}
+.clear__5{
+ width: 100%;
+ height: 700px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 80px;
+}
+.clear__5__h1{
+color: #0D4C93;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.partners{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partners__span{
+width: 50px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 25px;
+background: linear-gradient(180deg, #0D4C93 0%, #00C9C9 100%);
+border: none;
+color: white;
+size: 30px;
+cursor: pointer;
+}
+.partners__container{
+width:80%;
+height: 400px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+padding:15px;
+}
+.partners__card{
+width: 245px;
+height: 130px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 1px solid #ECECEC;
+background: #FFF;
+text-align: center;
+} 
+/* FOOTER QISMI */
+footer{
+    height: 300px;
+    background-image:url(./assets/img/blur-hospital\ 1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footr__up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.up__img{
+width: 200px;
+height: 58px;
+flex-shrink: 0;
+}
+.up__p{
+width: 400px;
+height: 200px;
+color: #585858;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.72px;
+margin-top: 50px;
+}
+.up__btn{
+width: 229px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 35px;
+opacity: 0.8999999761581421;
+background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.8px;
+cursor: pointer;
+}
+
+.footr__down{
+    display: flex;
+    justify-content: space-around;
+}
+.down__text{
+    display: flex;
+}
+.down__p{
+color: #353535;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.72px; 
+}
+.down__p__2{
+color: #00C9C9;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.72px;
+}
